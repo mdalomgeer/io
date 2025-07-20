@@ -3,242 +3,440 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shubhashis Roy Dipta - PhD Researcher</title>
+    <title>Md Alomgeer Hussein - PhD Researcher</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <nav class="navbar">
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#publications">Publications</a>
-                <a href="#notes">Notes</a>
-                <a href="#pypi">PyPI</a>
-                <div class="dropdown">
-                    <a href="#misc">Misc.</a>
-                    <div class="dropdown-content">
-                        <a href="#blog">Blog</a>
-                        <a href="#resources">Resources</a>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">AH</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-title">Md Alomgeer Hussein</h1>
+                    <h2 class="hero-subtitle">PhD Researcher & Data Scientist</h2>
+                    <p class="hero-description">
+                        Specializing in Machine Learning, Deep Learning, NLP, and Large Language Models. 
+                        Building AI solutions for health informatics and real-world challenges.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="resume.pdf" class="btn btn-primary" target="_blank">Resume</a>
+                        <a href="cv.pdf" class="btn btn-secondary" target="_blank">CV</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <img src="profile.jpg" alt="Md Alomgeer Hussein" class="profile-img">
+                        <div class="profile-overlay">
+                            <div class="social-links">
+                                <a href="https://linkedin.com/in/your-profile" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/your-username" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://scholar.google.com/citations?user=your-id" class="social-link" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+                                <a href="mailto:alomgeer@umbc.edu" class="social-link"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </nav>
-        <div class="social-icons">
-            <a href="mailto:sroydip1@umbc.edu"><i class="fas fa-envelope"></i></a>
-            <a href="#"><i class="fab fa-google-scholar"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-whatsapp"></i></a>
         </div>
-    </header>
+    </section>
 
-    <!-- Main Content -->
-    <main class="container">
-        <!-- Left Column -->
-        <div class="left-column">
-            <!-- Profile Section -->
-            <div class="profile-section">
-                <h1 class="name">Shubhashis Roy Dipta</h1>
-                <p class="title">PhD Researcher | Decomposition-based Reasoning | Multimodal, NLP</p>
-                
-                <div class="profile-image">
-                    <img src="profile.jpg" alt="Shubhashis Roy Dipta" id="profile-pic">
-                </div>
-                
-                <div class="contact-info">
-                    <h3>Shubhashis Roy Dipta</h3>
-                    <p><i class="fas fa-envelope"></i> sroydip1@umbc.edu</p>
-                </div>
-                
-                <div class="action-buttons">
-                    <a href="#" class="btn btn-primary">Resume</a>
-                    <a href="#" class="btn btn-primary">CV</a>
-                    <a href="#" class="btn btn-primary">Google Scholar</a>
-                </div>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
             </div>
-
-            <!-- Affiliations Section -->
-            <div class="affiliations-section">
-                <h2>Affiliations</h2>
-                
-                <div class="affiliation-item">
-                    <h3>Amazon Science</h3>
-                    <p class="position">Applied Research Scientist Intern</p>
-                    <p class="period">Summer 2025</p>
-                    <p class="details">Manager: Dr. Lichao Wang</p>
-                    <p class="details">Mentor: Dr. Daniel Bis</p>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I am a Ph.D. researcher with a robust background in Data Science, specializing in machine learning (ML), 
+                        deep learning (DL), natural language processing (NLP), and large language models (LLMs). My work spans 
+                        multiple fields, including health informatics and predictive modeling, with a strong focus on harnessing 
+                        AI to solve real-world challenges.
+                    </p>
+                    <p class="about-description">
+                        In my current research, I leverage large health datasets to develop patient-centered AI solutions. 
+                        I'm building conversational agents using fine-tuned LLMs to provide accessible health information for 
+                        underserved communities. Additionally, I have experience in advanced NLP and ML techniques, including 
+                        time-series analysis and graph neural networks.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>3+</h3>
+                            <p>Years Research</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>10+</h3>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>5+</h3>
+                            <p>Publications</p>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="affiliation-item">
-                    <h3>Scale.AI</h3>
-                    <p class="position">Machine Learning Research Intern</p>
-                    <p class="period">Summer 2024</p>
-                    <p class="details">Manager: Dr. Adrian Lam</p>
-                    <p class="details">Mentor: Vijay Kalmath</p>
-                </div>
-
-                <div class="affiliation-item">
-                    <h3>University of Maryland, Baltimore County</h3>
-                    <p class="position">Ph.D. in CS</p>
-                    <p class="period">Spring 2021 - Present</p>
-                    <p class="details">Advisor: Dr. Frank Ferraro</p>
-                    <p class="details">Grade: 4.00/4.00</p>
-                    <p class="details"><a href="#publications">Publications: See Here (From 2023)</a></p>
-                </div>
-
-                <div class="affiliation-item">
-                    <h3>University of Maryland, Baltimore County</h3>
-                    <p class="position">M.Sc. in CS</p>
-                    <p class="period">Spring 2021 - Spring 2023</p>
-                    <p class="details">Awards: Phi Kappa Phi</p>
-                    <p class="details">Grade: 4.00/4.00</p>
-                </div>
-
-                <div class="affiliation-item">
-                    <h3>Morgan State University</h3>
-                    <p class="position">Volunteer Researcher (Remote)</p>
-                    <p class="period">2017 - 2019</p>
-                    <p class="details">Advisor: Dr. Iman Dehzangi</p>
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="about-image.jpg" alt="Research Work" class="about-img">
+                        <div class="image-overlay"></div>
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <!-- Right Column -->
-        <div class="right-column">
-            <!-- Research Introduction -->
-            <div class="research-intro">
-                <p>I am a Computer Science PhD Researcher at UMBC, focusing on <strong>Natural Language Processing (NLP)</strong> and <strong>Computer Vision (CV)</strong>. My broad research is on <strong>Decomposition-based Reasoning</strong> using text or vision data, with a current focus on question-based decomposition.</p>
-                
-                <p>My past work includes <strong>Outcome and Intention based Decomposition</strong> for video-text retrieval and <strong>Event Representation Learning</strong> for text summarization, question answering, and counterfactual reasoning (published in *SEM 2023, ACL).</p>
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience & Skills</h2>
+                <div class="section-line"></div>
             </div>
-
-            <!-- Internship Details -->
-            <div class="internship-details">
-                <h3>Internship Details</h3>
-                <ul>
-                    <li><strong>Summer 2025:</strong> Amazon Science - Researching Alexa conversation optimization</li>
-                    <li><strong>Summer 2024:</strong> Scale.AI - Exploring RLHF for text2SQL generation and working on Many-Shot text2SQL and text2SQL AutoEval</li>
-                </ul>
-            </div>
-
-            <!-- Collaboration Call -->
-            <div class="collaboration-call">
-                <p>If you are interested in collaborating, please email me with a short description of your research interest.</p>
-            </div>
-
-            <!-- Skills and Background -->
+            
+            <!-- Technical Skills -->
             <div class="skills-section">
-                <h3>Skills and Background</h3>
-                <p>Strong background in ML programming (PyTorch, HuggingFace, NLTK, Spacy, Matplotlib, Seaborn), success in machine learning competitions (Kaggle top-70), and coding competitions (ACM ICPC 8th out of 300+ teams). Founder of UniShopr (2018-2022), a cross-border e-commerce platform.</p>
-            </div>
-
-            <!-- Research Interests -->
-            <div class="research-interests">
-                <h3>Research Interest</h3>
-                <ul class="interest-list">
-                    <li><i class="fas fa-check"></i> Decomposition-based Reasoning using Multimodal Data</li>
-                    <li><i class="fas fa-check"></i> (Outcome & Intention Based) Video-Text Retrieval</li>
-                    <li><i class="fas fa-check"></i> Natural Language Understanding</li>
-                </ul>
-            </div>
-
-            <!-- Recent News -->
-            <div class="recent-news">
-                <h3>Recent News <a href="#all-news">(See All)</a></h3>
-                <div class="news-item">
-                    <span class="date">Jun 14, 2025</span>
-                    <p>New Pre-print Alert: Q2E: Query-to-Event Decomposition for Zero-Shot Multilingual Text-to-Video Retrieval</p>
-                </div>
-                <div class="news-item">
-                    <span class="date">May 19, 2025</span>
-                    <p>Started my summer internship at Amazon in Alexa Conversational AI team. I am working on optimizing the Alexa conversation latency, cost and performance.</p>
-                </div>
-                <div class="news-item">
-                    <span class="date">May 16, 2025</span>
-                    <p>Served as a judge for the National Round of the Bangladesh AI Olympiad 2025. You can solve the problem here.</p>
-                </div>
-                <div class="news-item">
-                    <span class="date">Jan 23, 2025</span>
-                    <p>My summer internship project at Scale.AI has been featured on the Scale.AI blog.</p>
-                </div>
-                <div class="news-item">
-                    <span class="date">Dec 20, 2024</span>
-                    <p>Accepted a position as a Applied Research Scientist Intern at Amazon Science. Excited to join the team and work on cutting-edge research in NLP and ML.</p>
-                </div>
-            </div>
-
-            <!-- Core Statement -->
-            <div class="core-statement">
-                <p>I WRITE ✍️ on Machine Learning, NLP, Vision, Multimodal AI</p>
-            </div>
-
-            <!-- Featured Publications -->
-            <div class="publications-section">
-                <h3>Featured Publications</h3>
-                <p>Check out Google Scholar for a full list of my publications. <a href="#all-publications">(Show More)</a></p>
-                
-                <div class="publication-item">
-                    <h4>Q2E: Query-to-Event Decomposition for Zero-Shot Multilingual Text-to-Video Retrieval</h4>
-                    <p class="authors">Shubhashis Roy Dipta, Francis Ferraro</p>
-                    <p class="venue">arXiv, 2025</p>
-                    <div class="publication-links">
-                        <a href="#" class="btn btn-small">ARXIV</a>
-                        <a href="#" class="btn btn-small">BIB</a>
-                        <a href="#" class="btn btn-small">HTML</a>
-                        <a href="#" class="btn btn-small">PDF</a>
-                        <a href="#" class="btn btn-small">CODE</a>
+                <h3 class="skills-title">Technical Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h4>Python</h4>
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                            <span>Expert</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h4>Machine Learning</h4>
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                            <span>Expert</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h4>Deep Learning</h4>
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                            <span>Advanced</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <h4>NLP</h4>
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                            <span>Advanced</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-aws"></i>
+                        </div>
+                        <h4>AWS</h4>
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                            <span>Intermediate</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>Data Analysis</h4>
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                            <span>Expert</span>
+                        </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="publication-item">
-                    <h4>HU at SemEval-2024 Task 8A: Can Contrastive Learning Learn Embeddings to Detect Machine-Generated Text?</h4>
-                    <p class="authors">Shubhashis Roy Dipta, Sadat Shahriar</p>
-                    <p class="venue">SemEval 2024, 2024</p>
-                    <div class="publication-links">
-                        <a href="#" class="btn btn-small">ABS</a>
-                        <a href="#" class="btn btn-small">ARXIV</a>
-                        <a href="#" class="btn btn-small">BIB</a>
-                        <a href="#" class="btn btn-small">PDF</a>
-                        <a href="#" class="btn btn-small">CODE</a>
+            <!-- Education & Experience Timeline -->
+            <div class="timeline-section">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Research Assistant</h4>
+                            <p class="timeline-company">University of Maryland, Baltimore County</p>
+                            <p class="timeline-period">Fall 2022 - Present</p>
+                            <p class="timeline-description">
+                                Leading research in health informatics and AI solutions for underserved communities.
+                            </p>
+                        </div>
                     </div>
-                </div>
-
-                <div class="publication-item">
-                    <h4>Semantically-informed Hierarchical Event Modeling</h4>
-                    <p class="authors">Shubhashis Roy Dipta, Mehdi Rezaee, Francis Ferraro</p>
-                    <p class="venue">Proceedings of the 12th Joint Conference on Lexical and Computational Semantics (*SEM 2023), Jul 2023</p>
-                    <div class="publication-links">
-                        <a href="#" class="btn btn-small">ABS</a>
-                        <a href="#" class="btn btn-small">ARXIV</a>
-                        <a href="#" class="btn btn-small">BIB</a>
-                        <a href="#" class="btn btn-small">HTML</a>
-                        <a href="#" class="btn btn-small">PDF</a>
-                        <a href="#" class="btn btn-small">CODE</a>
-                        <a href="#" class="btn btn-small">Citations 2</a>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>PhD in Information Systems</h4>
+                            <p class="timeline-company">University of Maryland, Baltimore County</p>
+                            <p class="timeline-period">2022 - Present</p>
+                            <p class="timeline-description">
+                                Specializing in Data Science, ML, DL, and NLP applications in healthcare.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>MSc in Information Systems</h4>
+                            <p class="timeline-company">University of Maryland, Baltimore County</p>
+                            <p class="timeline-period">2020 - 2022</p>
+                            <p class="timeline-description">
+                                Focused on advanced data science and machine learning techniques.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project1.jpg" alt="CKD Prediction">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/your-username/ckd-prediction" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="project1-demo.html" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>CKD Prediction</h3>
+                        <p>Machine learning approaches for early diagnosis of chronic kidney disease using XGBoost achieving 98.3% accuracy.</p>
+                        <div class="project-tags">
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Healthcare</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project2.jpg" alt="Parkinson's Disease Review">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/your-username/parkinsons-detection" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="project2-paper.pdf" class="project-link" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Parkinson's Disease Diagnosis</h3>
+                        <p>Comprehensive review of ML/DL techniques for PD diagnosis using voice, handwriting, and spiral wave datasets.</p>
+                        <div class="project-tags">
+                            <span class="tag">Deep Learning</span>
+                            <span class="tag">Healthcare</span>
+                            <span class="tag">Review Paper</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project3.jpg" alt="Driver Tiredness Detection">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/your-username/driver-fatigue-detection" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="project3-demo.html" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Driver Tiredness Detection</h3>
+                        <p>Real-time computer vision system using Haar-cascade classifier to detect driver fatigue and prevent accidents.</p>
+                        <div class="project-tags">
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">OpenCV</span>
+                            <span class="tag">Safety</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p><a href="mailto:alomgeer@umbc.edu">alomgeer@umbc.edu</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Baltimore, Maryland, USA</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Institution</h4>
+                            <p>University of Maryland, Baltimore County</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p><a href="https://linkedin.com/in/your-profile" target="_blank">linkedin.com/in/your-profile</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <p><a href="https://github.com/your-username" target="_blank">github.com/your-username</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Google Scholar</h4>
+                            <p><a href="https://scholar.google.com/citations?user=your-id" target="_blank">Google Scholar Profile</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
-    <footer>
-        <div class="social-icons">
-            <a href="mailto:sroydip1@umbc.edu"><i class="fas fa-envelope"></i></a>
-            <a href="#"><i class="fab fa-google-scholar"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-whatsapp"></i></a>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Md Alomgeer Hussein. All Rights Reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/your-profile" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/your-username" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://scholar.google.com/citations?user=your-id" class="social-link" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+                    <a href="mailto:alomgeer@umbc.edu" class="social-link"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
         </div>
-        <p class="contact-message">Best way to contact me is to email. I try to reply each and every email.</p>
-        <p class="copyright">Copyright 2025 Shubhashis Roy Dipta.</p>
     </footer>
 
     <script src="script.js"></script>
